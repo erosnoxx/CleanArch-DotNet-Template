@@ -1,0 +1,21 @@
+{
+  "roles": [
+    {
+      "name": "Admin",
+      "permissions": [
+        "CAN_USER_CHANGE_ROLE",
+        "CAN_USER_DISABLE",
+        "CAN_USER_ENABLE",
+        "CAN_USER_GET_BY_ID",
+        "CAN_USER_GET_BY_EMAIL",
+        "CAN_USER_GET_ALL"
+      ]
+    },
+    {
+      "name": "User",
+      "permissions": [
+        "CAN_USER_GET_ALL"
+      ]
+    }
+  ]
+}
